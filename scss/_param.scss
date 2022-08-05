@@ -1,0 +1,19 @@
+*, ::after, ::before {
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+   font:16px/1.25 Arial,serif;
+   position: relative;
+   appearance: none;
+}
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   min-width: 1400px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}

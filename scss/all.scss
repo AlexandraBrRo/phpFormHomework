@@ -1,0 +1,61 @@
+@import
+'_param',
+'_acton';
+body{
+   background: rgb(144, 224, 239);
+   // display: none;
+}
+.wrapper{
+   margin-top: 100px;
+   border-radius: 25px;
+   align-items: center;
+
+}
+
+.form_login{
+   display: flex;
+   flex-wrap: wrap;
+   width: 500px;
+   flex: 0 0 500px;
+   align-items: center;
+   justify-content: center;
+   background: rgb(239, 242, 201);
+   border-radius: 20px;
+
+}
+label{
+   padding: 15px;
+}
+span{
+   display: block;
+   padding-bottom: 10px;
+   color: rgb(55, 29, 69);
+}
+input{
+   display: block;
+   padding: 15px;
+   border-radius: 10px;
+   cursor: pointer; 
+   border-color: rgb(169, 243, 235);
+   box-shadow: 0 0 5px rgba(81, 200, 110, 0.8);
+   &:hover{
+      border-color: rgb(245, 164, 226);
+      box-shadow: 0 0 5px rgba(248, 154, 96, 1);
+   }
+}
+form{
+   :focus{
+      outline: none;
+   }
+}
+input[type="submit"]{
+   
+   padding: 10px;
+   margin-bottom: 15px;
+   margin-left: 4px;
+   background: rgb(224, 241, 170);
+   border-color: rgb(209, 245, 93);
+   border-radius: 10px;
+   cursor: pointer; 
+   color: rgb(55, 29, 69);
+}
